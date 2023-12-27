@@ -1,0 +1,64 @@
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.left-panel {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.right-panel {
+    flex: 1;
+    margin-left: 10px;
+}
+
+h1.header {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input,
+button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+thead {
+    background-color: #f2f2f2;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
